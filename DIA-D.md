@@ -2,7 +2,7 @@
 
 ## Antes (hasta el viernes 13)
 - [ ] Los dos pueden hacer `git pull` y `git push` en este repo desde su compu.
-- [ ] GitHub Pages activado y la app de arranque abre en la URL pública.
+- [ ] GitHub Pages activado en el repo.
 - [ ] Clave gratuita de api.nasa.gov (y MAP_KEY de FIRMS si el desafío es de incendios).
 - [ ] Leídos los enunciados completos (salen el 28 oct) y elegidos 2 desafíos candidatos.
 - [ ] Leídas las guías de entrega y de evaluación (salen el 13 nov). Actualizar la skill `demo-pitch` si algo cambió.

@@ -10,7 +10,7 @@ Método principal: **GitHub Pages**, que sirve la carpeta del repo gratis. Plan 
 ## Primera vez (hacerlo en la práctica, no el día del evento)
 1. El repo tiene que ser **público** en GitHub (Pages gratis lo requiere).
 2. En GitHub: Settings → Pages → Source: "Deploy from a branch" → Branch `main`, carpeta `/ (root)` → Save.
-3. La app queda en `https://USUARIO.github.io/NOMBRE-REPO/app/`. El `index.html` de la raíz redirige ahí.
+3. La app queda en `https://USUARIO.github.io/NOMBRE-REPO/app/`.
 4. La primera publicación tarda 1–3 minutos.
 
 ## Cada vez que se publica

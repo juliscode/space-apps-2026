@@ -39,4 +39,4 @@ Este repo es la base de un equipo de 2 personas para el **NASA Space Apps Challe
 Completar el sábado a la mañana:
 - Desafío elegido: (pendiente)
 - Idea en una frase: (pendiente)
-- URL publicada: https://juliscode.github.io/space-apps-2026/app/ (hoy: app de arranque)
+- URL publicada: (pendiente)
