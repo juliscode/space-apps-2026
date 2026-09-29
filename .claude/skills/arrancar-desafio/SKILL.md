@@ -36,5 +36,6 @@ Objetivo: en **menos de 1 hora** pasar de "leímos el desafío" a "sabemos qué 
 
 ## Reglas
 - Si en 60 minutos no hay acuerdo, ir con la idea más fácil.
-- No proponer nada que necesite servidor, login de usuarios ni entrenar modelos de IA desde cero.
+- No proponer nada que necesite servidor ni entrenar modelos de IA desde cero. Login, cuentas y similares se simulan (ver "Foco" en `CLAUDE.md`).
+- Para cada idea, nombrar la plantilla o librería de la que se parte (ej.: Leaflet para mapas, Chart.js para gráficos, Kaboom o Phaser para juegos).
 - Si la idea usa IA (por ejemplo resumir textos), verificar antes que se pueda hacer sin exponer una API key en la página.

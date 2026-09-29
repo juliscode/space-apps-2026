@@ -7,6 +7,12 @@ Este repo es la base de un equipo de 2 personas para el **NASA Space Apps Challe
 - Antes de cambios grandes, decí en 2–3 líneas qué vas a hacer.
 - Cuando algo falle, explicá la causa en una frase y después arreglalo.
 
+## Foco: resolver el problema, nada más
+- Lo único que importa es resolver el problema del desafío. No nos enroscamos en lo accesorio.
+- **Login, registro, cuentas, permisos, pagos, paneles de admin: se simulan.** Usuario ficticio, datos de ejemplo, un botón que entra directo. Avisá en una línea que está simulado y seguí.
+- **Si hay plantilla, se usa.** Antes de construir algo desde cero, buscá una librería, componente o ejemplo hecho (mapas, gráficos, juegos, diseño) y partí de ahí.
+- Ante cada tarea, preguntate: ¿esto acerca a resolver el problema o es accesorio? Si es accesorio, simulalo o dejalo afuera.
+
 ## Reglas técnicas (no negociables)
 - **Sitio estático, sin build.** HTML + CSS + JavaScript plano. Nada de npm, React con build, servidores ni bases de datos. Librerías solo por CDN (jsDelivr, unpkg, cdnjs), con versión fija.
 - La app vive en `app/`. La página principal es `app/index.html`. Se publica con GitHub Pages.
