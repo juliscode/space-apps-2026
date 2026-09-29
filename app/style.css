@@ -1,0 +1,17 @@
+:root { --bg: #0e1520; --panel: #16202e; --ink: #e6ebf2; --muted: #9aa8ba; --accent: #fb8a4f; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.5; }
+header, footer { padding: 1rem 16px; max-width: 72rem; margin: 0 auto; }
+h1 { margin: 0; font-size: 1.8rem; }
+header p { margin: 0.2rem 0 0; color: var(--muted); }
+.status { font-family: ui-monospace, Menlo, monospace; font-size: 0.85rem; color: var(--accent) !important; }
+main { display: grid; grid-template-columns: 1fr 20rem; gap: 1rem; padding: 0 16px; max-width: 72rem; margin: 0 auto; }
+#map { height: 70vh; min-height: 22rem; border-radius: 6px; }
+#list { background: var(--panel); border-radius: 6px; padding: 0.8rem; overflow-y: auto; max-height: 70vh; min-width: 0; }
+#list button { display: block; width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid #2b3847; color: var(--ink); padding: 0.5rem 0.2rem; cursor: pointer; font: inherit; }
+#list button:hover, #list button:focus-visible { color: var(--accent); }
+#list small { color: var(--muted); display: block; }
+footer { color: var(--muted); font-size: 0.85rem; }
+footer h2 { font-size: 1rem; color: var(--ink); }
+a { color: var(--accent); }
+@media (max-width: 48rem) { main { grid-template-columns: 1fr; } #map { height: 55vh; } #list { max-height: 40vh; } }
